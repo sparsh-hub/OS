@@ -3,7 +3,6 @@ name = "try_os"
 version = "0.1.0"
 edition = "2024"
 
-[dependencies]
 
 [profile.dev]
 panic = "abort"
@@ -13,6 +12,9 @@ panic = "abort"
 
 
 [[bin]]
-name = "blog_os"
+name = "try_os"
 test = false
 bench = false
+
+[dependencies]
+bootloader = "0.9"
